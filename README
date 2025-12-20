@@ -1,0 +1,17 @@
+This is a VAE and supervised classification task on the MNIST dataset,
+that was given in the Advanced Machine Learning course.
+
+During the task we train a CNN module on the MNIST dataset, to perform 
+the supervised classification. During the task we achieve ~97% accuracy
+on the validation set. This can be found in the sup_classification.ipynb file.
+In addition, in the models.ipynb file we train a Variational Auto Encoder, and
+test it with some reconstructions, image log likelihood calculations and
+image sampling from the model.
+In the same file we also experiment with latent optimization,
+in which instead of training an encoder, we individually opptimize the
+latent variable for each data point, by minimizing reconstruction error.
+The encoder(for the amortized version) and decoder of the VAE model
+are also built using a CNN.
+
+I added a PDF file showing some of the plots, reconstructions, samples
+and comparisons between the models, as well as some brief explanations.
