@@ -1,9 +1,11 @@
 This is a VAE and supervised classification task on the MNIST dataset,
 that was given in the Advanced Machine Learning course.
 
-During the task we train a CNN module on the MNIST dataset, to perform 
+During the task we train a CNN model on the MNIST dataset, to perform 
 the supervised classification. During the task we achieve ~97% accuracy
 on the validation set. This can be found in the sup_classification.ipynb file.
+![Supervised Classification Model Accuracy](sup_classification_ accuracy)
+
 In addition, in the models.ipynb file we train a Variational Auto Encoder, and
 test it with some reconstructions, image log likelihood calculations and
 image sampling from the model.
